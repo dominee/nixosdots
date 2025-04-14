@@ -1,0 +1,13 @@
+dconf/
+gtk-3.0/
+Kvantum/
+nautilus/
+nwg-look/
+qt5ct/
+qt6ct/
+systemd/
+user-dirs.dirs
+user-dirs.locale
+xsettingsd/
+yay/
+pulse/
