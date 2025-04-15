@@ -27,4 +27,4 @@ basically simple hyprland with small differences
 - Logout Menu: `wlogout`
 - Screenshots: `grimblast`
 - GTK Theming: `nwg-look`
-- QT Theming: `qt5ct qt6ct kvantum`
+- QT Theming: `qt5ct qt6ct kvantum kvantum-qt5`
