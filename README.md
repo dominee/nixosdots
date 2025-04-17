@@ -11,6 +11,7 @@ basically simple hyprland with small differences
 - Web Browser: `firefox`
 - Terminal Emulator: `kitty`
 - Text Editor: `nano`
+- File Manager: `nautilus`
 - Compositor: `hyprland` (duh)
 - XDG Desktop Portal: `xdg-desktop-portal-hyprland`
 - Polkit: `polkit-gnome`
