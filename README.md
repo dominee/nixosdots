@@ -6,7 +6,7 @@ basically simple hyprland with small differences
 ## Software
 - AUR Helper: `yay`
 - Audio: `pipewire` and `wireplumber`
-- Fonts: `ttf-fira-sans ttf-hack-nerd ttf-nerd-fonts-symbols`
+- Fonts: `ttf-fira-sans ttf-hack-nerd ttf-nerd-fonts-symbols noto-fonts noto-fonts-cjk noto-fonts-emoji`
 - Display Manager: `ly`
 - Web Browser: `firefox`
 - Terminal Emulator: `kitty`
