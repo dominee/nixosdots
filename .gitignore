@@ -17,3 +17,6 @@ Vencord/
 vlc/
 qBittorrent/
 QtProject.conf
+Electron/
+hyfetch.json
+dconf/
