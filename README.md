@@ -14,7 +14,7 @@ basically simple hyprland with small differences
 - File Manager: `nautilus`
 - Compositor: `hyprland` (duh)
 - XDG Desktop Portal: `xdg-desktop-portal-hyprland`
-- Polkit: `mate-polkit`
+- Polkit: `polkit-gnome`
 - QT Wayland Support: `qt5-wayland qt6-wayland`
 - Notification Daemon: `dunst`
 - Brightness: `brightnessctl`
