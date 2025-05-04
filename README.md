@@ -19,7 +19,7 @@ basically simple hyprland with small differences
 - Notification Daemon: `dunst`
 - Brightness: `brightnessctl`
 - Bar: `waybar`
-- App Launcher: `tofi`
+- App Launcher: `fuzzel`
 - Clipboard Manager: `cliphist`
 - Wallpaper `swww`
 - Color Picker: `hyprpicker`
