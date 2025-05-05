@@ -27,6 +27,7 @@ basically simple hyprland with small differences
 - Idle Manager: `hypridle`
 - Logout Menu: `wlogout`
 - Screenshots: `grim slurp swappy`
+- Removable Media: `udiskie`
 - GTK Theming: `nwg-look`
 - QT Theming: `qt5ct qt6ct kvantum kvantum-qt5`
 - Themes: `catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git tela-circle-icon-theme-dracula catppuccin-cursors-mocha`
