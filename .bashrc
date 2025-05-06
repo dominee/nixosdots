@@ -10,6 +10,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias warpon='warp-cli connect'
 alias warpoff='warp-cli disconnect && systemctl restart systemd-resolved'
+alias clear-cache='mv ~/.cache/spotify-player ~ && sudo rm -rf /var/cache/* ~/.cache/* && mv ~/spotify-player ~/.cache'
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
