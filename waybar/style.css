@@ -16,7 +16,7 @@ window#waybar {
 
 #workspaces button {
     padding: 5px;
-    color: @base;
+    color: @blue;
     /* margin-right: 5px; */
 }
 
@@ -67,6 +67,7 @@ window#waybar {
 #tray {
     /* border-radius: 10px; */
     /* margin-right: 10px; */
+    border-right: 0px
 }
 
 #workspaces {
@@ -80,12 +81,14 @@ window#waybar {
 
 #cpu {
     /* border-radius: 0px 10px 10px 0px; */
-    color: @red;
+    color: @maroon;
+    border-right: 0px;
 }
 
 #memory {
     /* border-radius: 10px 0px 0px 10px; */
-    color: @maroon;
+    color: @red;
+    border-right: 0px;
 }
 
 #window {
@@ -105,7 +108,7 @@ window#waybar {
 #network {
     color:  @peach;
     /* border-radius: 10px 0px 0px 10px; */
-
+    border-right: 0px;
 }
 
 #pulseaudio {
@@ -125,4 +128,5 @@ window#waybar {
 #battery {
     color: @yellow;
     /* border-radius: 0px 10px 10px 0px; */
+    border-right: 0px;
 }
