@@ -23,7 +23,8 @@
     ],
 
     "hyprland/window": {
-        "format": "󰣇 {initialTitle}"
+        "format": "󰣇 {}",
+	"max-length": 35
     },
     
     "hyprland/workspaces": {
