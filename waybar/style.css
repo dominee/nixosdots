@@ -12,6 +12,7 @@
 window#waybar {
     background: @base;
     color: @text;
+    opacity: 0.8
 }
 
 #workspaces button {
