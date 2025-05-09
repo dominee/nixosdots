@@ -16,7 +16,7 @@ basically simple hyprland with small differences
 - XDG Desktop Portal: `xdg-desktop-portal-hyprland`
 - Polkit: `polkit-gnome`
 - QT Wayland Support: `qt5-wayland qt6-wayland`
-- Notification Daemon: `dunst`
+- Notification Daemon: `mako`
 - Brightness: `brightnessctl`
 - Bar: `waybar`
 - App Launcher: `fuzzel`

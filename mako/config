@@ -1,0 +1,10 @@
+# Colors
+
+border-radius=5
+background-color=#1e1e2ee6
+text-color=#cdd6f4e6
+border-color=#89dcebe6
+progress-color=over #313244e6
+
+[urgency=high]
+border-color=#fab387
