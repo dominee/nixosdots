@@ -18,6 +18,7 @@ basically simple hyprland with small differences
 - QT Wayland Support: `qt5-wayland qt6-wayland`
 - Notification Daemon: `mako`
 - Brightness: `brightnessctl`
+- Playback Control: `playerctl`
 - Bar: `waybar`
 - App Launcher: `fuzzel`
 - Clipboard Manager: `cliphist`

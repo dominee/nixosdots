@@ -15,6 +15,10 @@ window#waybar {
     opacity: 0.85
 }
 
+window#waybar.empty #window {
+    background: transparent;
+}
+
 #workspaces button {
     padding: 5px;
     color: @blue;
@@ -50,6 +54,7 @@ window#waybar {
 #network,
 #cpu,
 #memory,
+#custom-spotify,
 #workspaces,
 #tray,
 #backlight {
@@ -68,7 +73,7 @@ window#waybar {
 #tray {
     /* border-radius: 10px; */
     /* margin-right: 10px; */
-    border-right: 0px
+    border-left: 0px
 }
 
 #workspaces {
@@ -93,12 +98,13 @@ window#waybar {
 }
 
 #window {
+    color: @red;
     border-right: 1px solid @text;
     border-left: 1px solid @text;
+    margin-right: 5px;
 }
 
 #clock {
-    color: #a6adc8;
     /* border-radius: 10px 10px 10px 10px; */
     margin-left: 5px;
     border-right: 0px;
@@ -114,20 +120,22 @@ window#waybar {
 
 #pulseaudio {
     color: @teal;
-    border-left: 0px;
-    border-right: 1px solid @text;
+    border-right: 0px;
 }
 
 #pulseaudio.microphone {
     color: @sky;
     /* border-radius: 0px 10px 10px 0px; */
-    border-left: 0px;
-    border-right: 1px solid @text;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #battery {
     color: @yellow;
     /* border-radius: 0px 10px 10px 0px; */
+    margin-right: 5px;
+}
+
+#custom-spotify {
+    color: @green;
     border-right: 0px;
 }
