@@ -118,9 +118,8 @@
         "format": "{text}  ",
         "return-type": "json",
         "on-click": "playerctl play-pause",
-        "on-scroll-up": "playerctl next",
-        "on-scroll-down": "playerctl previous",
-	"smooth-scrolling-threshold": 2.0,
+        "on-click-right": "playerctl next",
+        "on-click-middle": "playerctl previous",
 	"max-length": 50
     }
 }
