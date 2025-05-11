@@ -59,21 +59,20 @@ window#waybar.empty #window {
 #tray,
 #backlight {
     background: @base;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 5px;
+    padding: 10px 0px;
+    margin: 0px 3px;
     border: 1px solid @text;
 }
 
 #backlight {
     /* border-radius: 10px 0px 0px 10px; */
     color: @green;
+    border-bottom: 0px;
 }
 
 #tray {
     /* border-radius: 10px; */
     /* margin-right: 10px; */
-    border-left: 0px
 }
 
 #workspaces {
@@ -83,59 +82,62 @@ window#waybar.empty #window {
     padding-right: 0px;
     padding-left: 5px;
     border-left: 1px solid @text;
+    border-bottom: 0px;
 }
 
 #cpu {
     /* border-radius: 0px 10px 10px 0px; */
     color: @maroon;
-    border-right: 0px;
+    border-bottom: 0px;
 }
 
 #memory {
     /* border-radius: 10px 0px 0px 10px; */
     color: @red;
-    border-right: 0px;
+    border-bottom: 0px;
+    margin-top: 5px;
 }
 
 #window {
     color: @red;
     border-right: 1px solid @text;
     border-left: 1px solid @text;
-    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 #clock {
     /* border-radius: 10px 10px 10px 10px; */
-    margin-left: 5px;
-    border-right: 0px;
+    border-right: 1px solid @text;
     border-left: 1px solid @text;
     color: @sapphire;
+    border-bottom: 0px;
+    margin-top: 5px;
 }
 
 #network {
     color:  @peach;
     /* border-radius: 10px 0px 0px 10px; */
-    border-right: 0px;
+    border-bottom: 0px;
 }
 
 #pulseaudio {
     color: @teal;
-    border-right: 0px;
+    border-bottom: 0px;
 }
 
 #pulseaudio.microphone {
     color: @sky;
     /* border-radius: 0px 10px 10px 0px; */
-    margin-left: 5px;
+    border-bottom: 1px solid @text;
 }
 
 #battery {
     color: @yellow;
     /* border-radius: 0px 10px 10px 0px; */
-    margin-right: 5px;
+    border-bottom: 0px;
 }
 
 #custom-spotify {
     color: @green;
-    border-right: 0px;
+    margin-bottom: 5px;
 }

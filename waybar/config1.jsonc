@@ -1,6 +1,6 @@
 {
     "layer": "top",
-    "position": "bottom",
+    "position": "right",
     "mode": "dock",
     "exclusive": true,
     "passthrough": false,
@@ -8,7 +8,8 @@
     "height": 0,
     "modules-left": [
         "clock",
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+	"tray"
     ],
     "modules-center": [],
     "modules-right": [
@@ -17,7 +18,8 @@
 
     "hyprland/window": {
         "format": "󰣇 {}",
-	"max-length": 75
+	"max-length": 50,
+	"rotate": 270
     },
     
     "hyprland/workspaces": {
@@ -31,9 +33,13 @@
 	}
     },
 
+    "tray": {
+        "icon-size": 13,
+        "spacing": 10
+    },
 
     "clock": {
-        "format": "{:%A    %B-%d-%Y    %I:%M:%S %p}",
+        "format": "{:%H\n%M}",
         "interval": 1,
         "rotate": 0,
         "tooltip-format": "<tt>{calendar}</tt>",
@@ -48,6 +54,10 @@
                 "today": "<span color='#a6adc8'><b>{}</b></span>",
                 "days": "<span color='#555869'><b>{}</b></span>"
             }
-        }
+	},
+	"actions": {
+	    "on-scroll-up": "shift_up",
+	    "on-scroll-down": "shift_down"
+	}
     }
 }
