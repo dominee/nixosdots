@@ -60,8 +60,9 @@ window#waybar.empty #window {
 #backlight {
     background: @base;
     padding: 10px 0px;
-    margin: 0px 3px;
-    border: 1px solid @text;
+    margin: 0px 0px;
+    border-top: 3px dashed @text;
+    border-bottom: 3px dashed @text;
 }
 
 #backlight {
@@ -82,7 +83,6 @@ window#waybar.empty #window {
     /* margin-left: 10px; */
     padding-right: 0px;
     padding-left: 5px;
-    border-left: 1px solid @text;
 }
 
 #cpu {
@@ -100,15 +100,12 @@ window#waybar.empty #window {
 
 #window {
     color: @red;
-    border-right: 1px solid @text;
-    border-left: 1px solid @text;
     margin-bottom: 5px;
+    padding-left: 5px;
 }
 
 #clock {
     /* border-radius: 10px 10px 10px 10px; */
-    border-right: 1px solid @text;
-    border-left: 1px solid @text;
     color: @sapphire;
     border-bottom: 0px;
     margin-top: 5px;
@@ -128,7 +125,7 @@ window#waybar.empty #window {
 #pulseaudio.microphone {
     color: @sky;
     /* border-radius: 0px 10px 10px 0px; */
-    border-bottom: 1px solid @text;
+    border-bottom: 3px dashed @text;
 }
 
 #battery {

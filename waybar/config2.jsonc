@@ -5,7 +5,9 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
+    "width": 30,
     "height": 0,
+    "margin": 0,
     "modules-left": [
 	"memory",
         "cpu",
