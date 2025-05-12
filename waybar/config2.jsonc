@@ -50,6 +50,7 @@
 
     "custom/logout": {
         "format": "󰍃 logout menu",
+	"tooltip": false,
 	"on-click": "wlogout",
 	"rotate": 90
     },
