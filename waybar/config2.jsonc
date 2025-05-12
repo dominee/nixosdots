@@ -17,8 +17,14 @@
     ],
     "modules-center": [],
     "modules-right": [
-	"custom/spotify"
+        "hyprland/window"
     ],
+
+    "hyprland/window": {
+        "format": "󰣇 {}",
+	"max-length": 30,
+	"rotate": 90
+    },
 
     "backlight": {
         "device": "intel_backlight",
@@ -113,14 +119,4 @@
 	"rotate": 90
     },
 
-    "custom/spotify": {
-        "exec": "/usr/bin/python3 $HOME/hyprdots/waybar/mediaplayer.py --player spotify",
-        "format": "{text}  ",
-        "return-type": "json",
-        "on-click": "playerctl play-pause",
-        "on-click-right": "playerctl next",
-        "on-click-middle": "playerctl previous",
-	"max-length": 30,
-	"rotate": 90
-    }
 }

@@ -13,11 +13,16 @@
     ],
     "modules-center": [],
     "modules-right": [
-        "hyprland/window"
+	"custom/spotify"
     ],
 
-    "hyprland/window": {
-        "format": "󰣇 {}",
+    "custom/spotify": {
+        "exec": "/usr/bin/python3 $HOME/hyprdots/waybar/mediaplayer.py --player spotify",
+        "format": "{text}  ",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-click-middle": "playerctl previous",
 	"max-length": 50,
 	"rotate": 270
     },
