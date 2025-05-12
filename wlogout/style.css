@@ -6,12 +6,12 @@
 }
 
 window {
-    background-color: #11111b;
+    background-color: rgba(17, 17, 27, 0.5);
     /* border-radius: 10px; */
 }
 
 button {
-    background-color: #11111b;
+    background-color: rgba(17, 17, 27, 0.75);
     border-style: solid;
     /* border-width: 2px; */
     border-radius: 50px;
@@ -23,11 +23,11 @@ button {
 
 button:active,
 button:hover {
-    background-color: #cdd6f4;
+    background-color: rgba(205, 214, 244, 0.75);
 }
 
 button:focus {
-    background-color: #cdd6f4;
+    background-color: rgba(205, 214, 244, 0.75);
 }
 
 #lock {
@@ -36,7 +36,7 @@ button:focus {
 
 #lock:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/lock-hover.png"), url("/usr/local/share/wlogout/icons/lock.png"));
-    color: #11111b;
+    color: rgba(17, 17, 27, 0.75);
 }
 
 #logout {
@@ -45,7 +45,7 @@ button:focus {
 
 #logout:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/logout-hover.png"), url("/usr/local/share/wlogout/icons/logout.png"));
-    color: #11111b;
+    color: rgba(17, 17, 27, 0.75);
 }
 
 #suspend {
@@ -54,7 +54,7 @@ button:focus {
 
 #suspend:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/sleep-hover.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
-    color: #11111b;
+    color: rgba(17, 17, 27, 0.75);
 }
 
 #shutdown {
@@ -63,7 +63,7 @@ button:focus {
 
 #shutdown:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/power-hover.png"), url("/usr/local/share/wlogout/icons/shutdown.png")); 
-    color: #11111b;
+    color: rgba(17, 17, 27, 0.75);
 }
 
 #reboot {
@@ -72,17 +72,17 @@ button:focus {
 
 #reboot:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/restart-hover.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
-    color: #11111b;
+    color: rgba(17, 17, 27, 0.75);
 }
 
 #exit {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/restart.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
-    background-color: #11111b;
+    background-color: rgba(17, 17, 27, 0.75);
 
 }
 
 #exit:hover {
     background-image: image(url("/home/sunny/.config/assets/wlogout/assets/restart-hover.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
-    color: #11111b;
-    background-color: #cdd6f4;
+    color: rgba(17, 17, 27, 0.75);
+    background-color: rgba(205, 214, 244, 0.75);
 }

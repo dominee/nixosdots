@@ -9,32 +9,48 @@
     "height": 0,
     "margin": 0,
     "modules-left": [
-	"memory",
-        "cpu",
-        "network",
-        "battery",
-	"backlight",
-	"pulseaudio",
-        "pulseaudio#microphone"
+	"group/info",
     ],
-    "modules-center": [],
-    "modules-right": [
-        "hyprland/window"
-    ],
+    "modules-center": ["group/spotify"],
+    "modules-right": ["group/logout"],
 
-    "hyprland/window": {
-        "format": "󰣇 {}",
-	"max-length": 30,
-	"rotate": 90
+    "group/info": {
+        "orientation": "inherit",
+        "drawer": { "transition-duration": 300, "transition-left-to-right": true },
+        "modules": [
+		"custom/arrow-left",
+            	"memory",
+                "cpu",
+        	"network",
+        	"battery"
+        ]
     },
 
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "{icon} {percent}%",
-        "format-icons": ["󰃞", "󰃟", "󰃠"],
-        "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-",
-        "min-length": 6,
+    "group/spotify": {
+        "orientation": "inherit",
+        "drawer": { "transition-duration": 300, "transition-left-to-right": true },
+        "modules": [
+        	"custom/music",
+        	"custom/spotify"
+        ]
+    },
+
+    "group/logout": {
+        "orientation": "inherit",
+        "drawer": { "transition-duration": 300, "transition-left-to-right": true },
+        "modules": [
+        	"custom/arrow-right",
+		"custom/logout"
+        ]
+    },
+
+    "custom/arrow-left":  { "format": "  ", "tooltip": false, "rotate": 90},
+    "custom/music": { "format": "  ", "tooltip": false, "rotate": 90},
+    "custom/arrow-right":  { "format": "  ", "tooltip": false, "rotate": 90},
+
+    "custom/logout": {
+        "format": "󰍃 logout menu",
+	"on-click": "wlogout",
 	"rotate": 90
     },
 
@@ -52,35 +68,15 @@
 	"rotate": 90
     },
 
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "tooltip": false,
-        "format-muted": " ",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+",
-        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-",
-        "scroll-step": 5,
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["","", "", ""]
-        },
-	"rotate": 90
-    },
-
-    "pulseaudio#microphone": {
-        "format": "{format_source}",
-        "format-source": " {volume}%",
-        "format-source-muted": " ",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
-        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 1%+",
-        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 1%-",
-        "scroll-step": 5,
-	"rotate": 90
+    "custom/spotify": {
+        "exec": "/usr/bin/python3 $HOME/hyprdots/waybar/mediaplayer.py --player spotify",
+        "format": "{text}  ",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-click-middle": "playerctl previous",
+	"rotate": 90,
+	"max-length": 75
     },
 
     "memory": {
@@ -110,7 +106,7 @@
 
     "network": {
         "tooltip": true,
-        "format-wifi": " ",
+        "format-wifi": "  {essid}",
         "format-ethernet": "󰈀 ",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 ",
