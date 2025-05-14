@@ -35,4 +35,5 @@ used to be like simple-hyprland, ended up tweaking a lot to my liking
 
 ## Preview
 Last updated: 14th May 2025
-![Rice](https://files.catbox.moe/lfpdp3.mp4)
+
+[![Rice](https://files.catbox.moe/0imbbj.png)](https://files.catbox.moe/lfpdp3.mp4)
