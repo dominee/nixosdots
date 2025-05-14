@@ -1,7 +1,7 @@
 # hyprdots
 big credits to [simple-hyprland](https://github.com/gaurav23b/simple-hyprland?tab=readme-ov-file)
 
-basically simple hyprland with small differences
+used to be like simple-hyprland, ended up tweaking a lot to my liking
 
 ## Software
 - AUR Helper: `yay`
