@@ -32,3 +32,7 @@ used to be like simple-hyprland, ended up tweaking a lot to my liking
 - GTK Theming: `nwg-look`
 - QT Theming: `qt5ct qt6ct kvantum kvantum-qt5`
 - Themes: `catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git tela-circle-icon-theme-dracula catppuccin-cursors-mocha`
+
+## Preview
+Last updated: 14th May 2025
+![Rice](https://files.catbox.moe/lfpdp3.mp4)
