@@ -34,6 +34,6 @@ used to be like simple-hyprland, ended up tweaking a lot to my liking
 - Themes: `catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git tela-circle-icon-theme-dracula catppuccin-cursors-mocha`
 
 ## Preview
-Last updated: 14th May 2025
-
+Last updated: 14th May 2025\
+Click the image to watch!
 [![Rice](https://files.catbox.moe/0imbbj.png)](https://files.catbox.moe/lfpdp3.mp4)
