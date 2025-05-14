@@ -11,6 +11,7 @@ alias grep='grep --color=auto'
 alias warpon='warp-cli connect'
 alias warpoff='warp-cli disconnect && systemctl restart systemd-resolved'
 alias clear-cache='mv ~/.cache/spotify* ~ && mv ~/.cache/cliphist ~ && mv ~/.cache/blesh ~ && sudo rm -rf /var/cache/* ~/.cache/* && mv ~/spotify* ~/cliphist ~/blesh ~/.cache'
+alias cava_bg='KITTY_DISABLE_WAYLAND=1 kitty -c ~/.config/kitty/kitty-cava.conf --class "kitty-cava" cava'
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
