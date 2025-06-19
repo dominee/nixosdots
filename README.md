@@ -1,21 +1,22 @@
-# hyprdots
-big credits to [simple-hyprland](https://github.com/gaurav23b/simple-hyprland?tab=readme-ov-file)
+# nixosdots
 
-used to be like simple-hyprland, ended up tweaking a lot to my liking
+Nixos dotfiles form my [nixos-lemp13](https://github.com/dominee/nixos-lemp13) repo to be used with `stow`.
+
 
 ## Software
-- AUR Helper: `yay`
+
+
 - Audio: `pipewire` and `wireplumber`
-- Fonts: `ttf-fira-sans ttf-hack-nerd ttf-nerd-fonts-symbols noto-fonts noto-fonts-cjk noto-fonts-emoji`
+- Fonts: `font-awesome jetbrains-mono nerd-fonts.noto nerd-fonts.hack noto-fonts  noto-fonts-emoji`
 - Display Manager: `ly`
 - Web Browser: `firefox`
-- Terminal Emulator: `kitty`
-- Text Editor: `nano`
+- Terminal Emulator: `kitty ghostty`
+- Text Editor: `neovim`
 - File Manager: `nautilus`
-- Compositor: `hyprland` (duh)
+- Compositor: `vivaldi`
 - XDG Desktop Portal: `xdg-desktop-portal-hyprland`
-- Polkit: `polkit-gnome`
-- QT Wayland Support: `qt5-wayland qt6-wayland`
+- Polkit: `polkit`
+- QT Wayland Support: `qt5.qtwayland qt6.qtwayland`
 - Notification Daemon: `mako`
 - Brightness: `brightnessctl`
 - Playback Control: `playerctl`
@@ -28,12 +29,14 @@ used to be like simple-hyprland, ended up tweaking a lot to my liking
 - Idle Manager: `hypridle`
 - Logout Menu: `wlogout`
 - Screenshots: `grim slurp swappy`
-- Removable Media: `udiskie gvfs-mtp`
+- Removable Media: `udiskie`
 - GTK Theming: `nwg-look`
-- QT Theming: `qt5ct qt6ct kvantum kvantum-qt5`
-- Themes: `catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git tela-circle-icon-theme-dracula catppuccin-cursors-mocha`
+- QT Theming: `libsForQt5.qt5ct qt6ct`
+- Themes: `catppuccin-gtk catppuccin-kvantum catppuccin-cursors tmuxPlugins.catppuccin catppuccin-qt5ct`
 
-## Preview
-Last updated: 14th May 2025\
-Click the image to watch!
-[![Rice](https://files.catbox.moe/0imbbj.png)](https://files.catbox.moe/lfpdp3.mp4)
+## Credit
+
+All credit for the amazing setup and hard work goes to [jamlotrasoiaf/hyprdots](https://github.com/jamlotrasoiaf/hyprdots).
+I am just altering it a bit for nixos and my personal preference.
+
+
