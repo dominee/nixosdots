@@ -1,5 +1,5 @@
 #!/bin/sh
 
 killall waybar
-waybar -c $HOME/hyprdots/waybar/config1.jsonc &
-waybar -c $HOME/hyprdots/waybar/config2.jsonc
+waybar -c $HOME/.config/waybar/config1.jsonc &
+waybar -c $HOME/.config/waybar/config2.jsonc

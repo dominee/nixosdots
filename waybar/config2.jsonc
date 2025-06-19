@@ -70,7 +70,7 @@
     },
 
     "custom/spotify": {
-        "exec": "/usr/bin/python3 $HOME/hyprdots/waybar/mediaplayer.py --player spotify",
+        "exec": "/usr/bin/python3 $HOME/.config/waybar/mediaplayer.py --player spotify",
         "format": "{text}  ",
         "return-type": "json",
         "on-click": "playerctl --player=spotify play-pause",
